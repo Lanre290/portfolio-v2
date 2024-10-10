@@ -103,7 +103,7 @@ function Bio() {
           </div>
         </div>
         <div className="flex flex-col h-full items-start justify-center gap-y-5 lg:w-1/2 flex-grow">
-            <h3 className="px-2 text-gray-50 text-xl">
+            <h3 className="px-2 text-gray-50 text-xl text-center md:text-left">
             I'm a web developer based in Lagos, Nigeria, specializing in creating
             and designing websites for clients worldwide. I have expertise in
             HTML, CSS, JavaScript, PHP, React, and Laravel with a little bit of

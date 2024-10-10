@@ -5,11 +5,16 @@ import { HiMiniBars2 } from "react-icons/hi2";
 import { PiPhone } from "react-icons/pi";
 import { SlHome } from "react-icons/sl";
 import Socials from "./Socials";
+import { CgClose } from "react-icons/cg";
 
 function Header() {
-    const [offsetY, setOffsetY] = useState(0);
-    const [previousScrollY, setPreviousScrollY] = useState(0);
-    const [isTopDiv, setIsTopDiv] = useState(false);
+    const [offsetY, setOffsetY] = useState<number>(0);
+    const [previousScrollY, setPreviousScrollY] = useState<number>(0);
+    const [isTopDiv, setIsTopDiv] = useState<boolean>(false);
+    const [isShown, setIsShown] = useState<boolean>(false);
+
+
+
     window.onscroll = () => {
         let scrollpos = Math.floor(window.scrollY);
         if(scrollpos < previousScrollY){
@@ -72,38 +77,47 @@ function Header() {
               <span className="text-gray-50">heriff</span>
             </span>
           </div>
-          <div className="hidden md:flex flex-row justify-evenly flex-grow md:ml-10 lg:ml-24 xl:ml-40">
+          <div className={`fixed md:relative top-0 bottom-0 right-0 left-0 w-screen h-screen md:w-auto md:h-full ${isShown == false && 'hidden'} bg-black md:bg-transparent items-center justify-start flex flex-col md:flex md:flex-row md:justify-evenly flex-grow md:ml-10 lg:ml-24 xl:ml-40 z-50`}>
+            <div className="flex justify-end w-full md:hidden">
+              <button className="w-12 h-12 m-4 flex items-center justify-center" onClick={() => {setIsShown(false)}}>
+                <CgClose className="text-2xl primary-color"></CgClose>
+              </button>
+            </div>
             <a
               href="#home"
-              className="text-xl w-fit cursor-pointer text-gray-50 hover-primary-color"
+              className="text-xl w-fit cursor-pointer text-gray-50 hover-primary-color h-14 md:h-auto"
+              onClick={() => {setIsShown(false)}}
             >
               HOME
             </a>
             <a
               href="#about"
-              className="text-xl w-fit cursor-pointer text-gray-50 hover-primary-color"
+              className="text-xl w-fit cursor-pointer text-gray-50 hover-primary-color h-14 md:h-auto"
+              onClick={() => {setIsShown(false)}}
             >
               ABOUT
             </a>
             <a
               href="#services"
-              className="text-xl w-fit cursor-pointer text-gray-50 hover-primary-color"
+              className="text-xl w-fit cursor-pointer text-gray-50 hover-primary-color h-14 md:h-auto"
+              onClick={() => {setIsShown(false)}}
             >
               SERVICES
             </a>
             <a
               href="#contact"
-              className="text-xl w-fit cursor-pointer text-gray-50 hover-primary-color"
+              className="text-xl w-fit cursor-pointer text-gray-50 hover-primary-color h-14 md:h-auto"
+              onClick={() => {setIsShown(false)}}
             >
               CONTACT
             </a>
 
-            <a href="tel:+2349164187495" className="flex flex-row ml-10">
+            <a href="tel:+2349164187495" className="flex flex-row md:ml-10">
               <PiPhone className="primary-color text-3xl"></PiPhone>
               <span className="primary-color">+234 9164-187-495</span>
             </a>
           </div>
-          <div className="flex md:hidden cursor-pointer">
+          <div className="flex md:hidden cursor-pointer" onClick={() => {setIsShown(true)}}>
             <HiMiniBars2 className="primary-color text-3xl"></HiMiniBars2>
           </div>
         </div>

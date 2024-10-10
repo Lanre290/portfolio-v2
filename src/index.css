@@ -9,6 +9,7 @@ html:not(a.socials){
   transition-duration: 0.4s;
 }
 
+
 .primary-color{
   color: var(--primary-color);
 }
