@@ -25,7 +25,7 @@ function Header() {
         setPreviousScrollY(scrollpos);
     }
   return (
-    <div className="w-screen h-screen relative sm:h-screen home-bg">
+    <div id="home" className="w-screen h-screen relative sm:h-screen home-bg">
       {offsetY > 200 && isTopDiv && (
         <div
           className="fixed top-14 z-50"
@@ -77,25 +77,25 @@ function Header() {
           </div>
           <div className="hidden md:flex flex-row justify-evenly flex-grow md:ml-10 lg:ml-24 xl:ml-40">
             <a
-              href=""
+              href="#home"
               className="text-xl w-fit cursor-pointer text-gray-50 hover-primary-color"
             >
               HOME
             </a>
             <a
-              href=""
+              href="#about"
               className="text-xl w-fit cursor-pointer text-gray-50 hover-primary-color"
             >
               ABOUT
             </a>
             <a
-              href=""
+              href="#services"
               className="text-xl w-fit cursor-pointer text-gray-50 hover-primary-color"
             >
               SERVICES
             </a>
             <a
-              href=""
+              href="#contact"
               className="text-xl w-fit cursor-pointer text-gray-50 hover-primary-color"
             >
               CONTACT

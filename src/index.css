@@ -4,6 +4,10 @@
   --light-primary-color: rgb(130, 126, 104);
 }
 
+html:not(a.socials){
+  scroll-behavior: smooth;
+  transition-duration: 0.4s;
+}
 
 .primary-color{
   color: var(--primary-color);
