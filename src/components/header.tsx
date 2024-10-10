@@ -1,9 +1,6 @@
 import { useState } from "react";
 import { Fade } from "react-awesome-reveal";
 import { BiBookmark, BiUserCircle } from "react-icons/bi";
-import { BsGithub, BsInstagram, BsLinkedin, BsTwitterX } from "react-icons/bs";
-import { CgFacebook } from "react-icons/cg";
-import { GoMail } from "react-icons/go";
 import { HiMiniBars2 } from "react-icons/hi2";
 import { PiPhone } from "react-icons/pi";
 import { SlHome } from "react-icons/sl";
