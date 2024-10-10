@@ -1,0 +1,30 @@
+:root{
+  --primary-color: gold;
+  --hover-primary-color: rgb(210, 179, 0);
+  --light-primary-color: rgb(130, 126, 104);
+}
+
+
+.primary-color{
+  color: var(--primary-color);
+}
+
+.hover-primary-color:hover{
+  color: var(--primary-color);
+}
+.border-primary-color{
+  border-color: var(--primary-color);
+}
+
+.hover-bg-primary-color:hover{
+  background-color: var(--primary-color);
+}
+.bg-primary-color-light{
+  background-color: var(--light-primary-color);
+}
+.bg-primary-color{
+  background-color: var(--primary-color);
+}
+button.bg-primary-color:hover{
+  background-color: var(--hover-primary-color);
+}
