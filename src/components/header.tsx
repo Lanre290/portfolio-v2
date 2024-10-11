@@ -77,7 +77,7 @@ function Header() {
               <span className="text-gray-50">heriff</span>
             </span>
           </div>
-          <div className={`fixed md:relative top-0 bottom-0 right-0 left-0 w-screen h-screen md:w-auto md:h-full ${isShown == false && 'hidden'} bg-black md:bg-transparent items-center justify-start flex flex-col md:flex md:flex-row md:justify-evenly flex-grow md:ml-10 lg:ml-24 xl:ml-40 z-50`}>
+          <div className={`fixed md:relative top-0 bottom-0 right-0 left-0 w-screen h-screen md:w-auto md:h-full ${isShown == false && 'hidden'} bg-black md:bg-transparent items-center justify-start flex flex-col md:flex md:flex-row md:justify-evenly md:flex-grow md:ml-10 lg:ml-24 xl:ml-40 z-50`}>
             <div className="flex justify-end w-full md:hidden">
               <button className="w-12 h-12 m-4 flex items-center justify-center" onClick={() => {setIsShown(false)}}>
                 <CgClose className="text-2xl primary-color"></CgClose>
