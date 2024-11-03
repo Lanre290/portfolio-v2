@@ -15,7 +15,7 @@ function Certifications(){
                     <h3 className="text-center text-gray-50 md:text-2xl ml-3">
                         Postman API Fundamentals Student Expert
                     </h3>
-                    <h3 className="text-center primary-color">Completed</h3>
+                    <h3 className="text-center primary-color mt-3">Completed</h3>
                 </a>
                 <a href="https://intranet.alxswe.com/certificates/sEGyJPLeBh" target="_blank" className="p-6 bg-gray-500 bg-opacity-5 flex flex-col justify-start items-center w-2/3 md:w-1/3 lg:w-1/4 h-auto md:h-64">
                     <div className="w-16 h-16 md:w-28 md:h-28 rounded-full flex items-center justify-center bg-black">
@@ -24,7 +24,7 @@ function Certifications(){
                     <h3 className="text-center text-gray-50 md:text-2xl ml-3">
                         ALX Professional Foundational Course
                     </h3>
-                    <h3 className="text-center primary-color">Completed</h3>
+                    <h3 className="text-center primary-color mt-3">Completed</h3>
                 </a>
                 <a className="p-6 bg-gray-500 bg-opacity-5 flex flex-col justify-start items-center w-2/3 md:w-1/3 lg:w-1/4 h-auto md:h-64">
                     <div className="w-16 h-16 md:w-28 md:h-28 rounded-full flex items-center justify-center bg-black">
@@ -33,7 +33,7 @@ function Certifications(){
                     <h3 className="text-center text-gray-50 md:text-2xl ml-3">
                         Google (Web.dev) - User and Data Privacy
                     </h3>
-                    <h3 className="text-center primary-color">Completed</h3>
+                    <h3 className="text-center primary-color mt-3">Completed</h3>
                 </a>
             </div>
         </div>
