@@ -30,7 +30,7 @@ function Certifications(){
 
                     </div>
                     <h3 className="text-center text-gray-50 md:text-2xl ml-3">
-                        Google - User and Data Privacy
+                        Google (Web.dev) - User and Data Privacy
                     </h3>
                     <h3 className="text-center primary-color">Completed</h3>
                 </a>
