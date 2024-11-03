@@ -14,7 +14,7 @@ function Skills(){
                 <Prog progress={83} text="LARAVEL"></Prog>
                 <Prog progress={78} text="REACT"></Prog>
                 <Prog progress={85} text="PYTHON"></Prog>
-                <Prog progress={40} text="NODE JS"></Prog>
+                <Prog progress={70} text="NODE JS"></Prog>
             </div>
         </div>
     )
