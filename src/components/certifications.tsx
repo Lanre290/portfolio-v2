@@ -1,6 +1,7 @@
 import Title from "./Title";
 import studentExpert from './../assets/student expert.png';
 import ALX from './../assets/alx.jpeg';
+import web_dev from './../assets/web.dev.svg';
 
 function Certifications(){
     return(
@@ -27,7 +28,7 @@ function Certifications(){
                 </a>
                 <a className="p-6 bg-gray-500 bg-opacity-5 flex flex-col justify-start items-center w-2/3 md:w-1/3 lg:w-1/4 h-auto md:h-64">
                     <div className="w-16 h-16 md:w-28 md:h-28 rounded-full flex items-center justify-center bg-black">
-
+                        <img src={web_dev} alt="Google certification" className="w-full h-full object-cover rounded-full" />
                     </div>
                     <h3 className="text-center text-gray-50 md:text-2xl ml-3">
                         Google (Web.dev) - User and Data Privacy
