@@ -4,7 +4,7 @@ import ALX from './../assets/alx.jpeg';
 
 function Certifications(){
     return(
-        <div className="flex flex-col w-full md:w-11/12 lg:4/6 xl:3/6 mb-24 gap-y-7">
+        <div className="flex flex-col w-full md:w-5/6 lg:4/6 xl:3/6 mb-24 gap-y-7">
             <Title text="Certifications"></Title>
             <div className="flex flex-row flex-wrap justify-center items-center gap-2">
                 <a href="https://badgr.com/public/assertions/JmZwwo3gQnGxA1eXBBd-0g?identity__email=lanre2967@gmail.com" target="_blank" className="p-6 bg-gray-500 bg-opacity-5 flex flex-col justify-start items-center w-2/3 md:w-1/3 lg:w-1/4 h-auto md:h-64">

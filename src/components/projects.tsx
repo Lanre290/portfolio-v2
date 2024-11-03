@@ -6,7 +6,7 @@ import Title from "./Title";
 
 const Projects = () => {
   return (
-    <div className="flex flex-col w-full md:w-11/12 lg:4/6 xl:3/6 mx-auto">
+    <div className="flex flex-col w-full md:w-5/6 lg:4/6 xl:3/6 mx-auto">
         <Title text="Projects"></Title>
         <div className="flex flex-row flex-wrap justify-center items-center gap-2 w-full">
             <ProjectTile

@@ -3,7 +3,7 @@ import dp from "./../assets/dp.jpg";
 
 function Bio() {
   return (
-    <div id="about" className="flex flex-col w-full px-2 md:w-11/12 lg:4/6 xl:3/6 -mt-5 mx-auto">
+    <div id="about" className="flex flex-col w-full px-2 md:w-5/6 lg:4/6 xl:3/6 -mt-5 mx-auto">
       <Title text="ABOUT ME"></Title>
       <div className="flex flex-col md:flex-row">
         <div className="py-10 bg-center bg-cover bg-no-repeat flex flex-row items-center justify-center w-full lg:w-1/2 mx:auto md:mx-0">
