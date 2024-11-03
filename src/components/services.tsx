@@ -10,7 +10,7 @@ function Services(){
 
 
     return(
-        <div id="services" className="w-full md:w-5/6 lg:4/6 xl:3/6 mx:auto md:mx-0">
+        <div id="services" className="w-full md:w-11/12 lg:4/6 xl:3/6 mx:auto md:mx-0">
             <Title text="Services"></Title>
             <div className="py-10 flex flex-row flex-wrap items-center justify-center w-full gap-2">
                 <ServiceTile icon={<CgWebsite className="text-gray-50 text-5xl"></CgWebsite>} text="Full-stack web development"></ServiceTile>
