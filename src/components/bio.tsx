@@ -1,5 +1,6 @@
 import Title from "./Title";
 import dp from "./../assets/dp.jpg";
+import file from './../assets/Ashiru Sheriffdeen - CV.pdf'
 
 function Bio() {
   return (
@@ -113,7 +114,7 @@ function Bio() {
             innovative solutions to my clients digital needs, ensuring they stand
             out in a competitive online landscape.
             </h3>
-            <button className="bg-primary-color text-gray-50 cursor-pointer px-6 py-2 rounded-lg w-fit md:ml-2 mx-auto md:mx-0">Download CV</button>
+            <a href={file} className="bg-primary-color text-gray-50 cursor-pointer px-6 py-2 rounded-lg w-fit md:ml-2 mx-auto md:mx-0" download>Download CV</a>
         </div>
       </div>
     </div>
