@@ -2,6 +2,7 @@ import ProjectTile from "./projectTile";
 import connect from "./../assets/connect.png";
 import moodmix from './../assets/moodmix.png';
 import cgpaCalc from './../assets/cgpa calculator.png';
+import clarkAI from './../assets/clarkAI.png';
 import Title from "./Title";
 
 const Projects = () => {
@@ -27,6 +28,12 @@ const Projects = () => {
                 url="https://moodify-w6jn.onrender.com/"
                 progress={true}
                 description="An ai powered webapp that generates spotify playlist for you based on your mood."
+            ></ProjectTile>
+            <ProjectTile
+                image={clarkAI}
+                title="ClarkAI"
+                url="https://clarkai-baxl.onrender.com/"
+                description="An ai powered Educational assistant deisnged to help students with their day-to-day activities making learning easier, features include AI Quiz Generator, AI summarizer, one-on-one chat with AI"
             ></ProjectTile>
             </div>
     </div>
