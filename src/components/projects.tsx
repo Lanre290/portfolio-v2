@@ -3,6 +3,7 @@ import connect from "./../assets/connect.png";
 import moodmix from './../assets/moodmix.png';
 import cgpaCalc from './../assets/cgpa calculator.png';
 import clarkAI from './../assets/clarkAI.png';
+import lasuMap from './../assets/lasumap.png'
 import Title from "./Title";
 
 const Projects = () => {
@@ -34,6 +35,12 @@ const Projects = () => {
                 title="ClarkAI"
                 url="https://clarkai-baxl.onrender.com/"
                 description="An ai powered Educational assistant deisnged to help students with their day-to-day activities making learning easier, features include AI Quiz Generator, AI summarizer, one-on-one chat with AI"
+            ></ProjectTile>
+            <ProjectTile
+                image={lasuMap}
+                title="Lasu Map"
+                url="https://lasu-map.onrender.com/"
+                description="A map application designed for people in my university to easily find their way around."
             ></ProjectTile>
             </div>
     </div>
