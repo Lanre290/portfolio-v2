@@ -16,7 +16,7 @@ function Bio() {
                 backgroundAttachment: "fixed",
                 backgroundSize: "contain",
                 backgroundPosition: "center",
-                backgroundPositionX: "25%",
+                backgroundPositionX: "-50%",
               }}
             ></div>
             <div
@@ -26,7 +26,7 @@ function Bio() {
                 backgroundAttachment: "fixed",
                 backgroundSize: "contain",
                 backgroundPosition: "center",
-                backgroundPositionX: "25%",
+                backgroundPositionX: "-50%",
               }}
             ></div><div
             className="rounded-xl w-24 h-24 lg:w-36 lg:h-36 bg-transparent m-1 object-cover"
@@ -35,7 +35,7 @@ function Bio() {
               backgroundAttachment: "fixed",
               backgroundSize: "contain",
               backgroundPosition: "center",
-              backgroundPositionX: "25%",
+              backgroundPositionX: "-50%",
             }}
           ></div>
           </div>
@@ -47,7 +47,7 @@ function Bio() {
                 backgroundAttachment: "fixed",
                 backgroundSize: "contain",
                 backgroundPosition: "center",
-                backgroundPositionX: "25%",
+                backgroundPositionX: "-50%",
               }}
             ></div>
             <div
@@ -57,7 +57,7 @@ function Bio() {
                 backgroundAttachment: "fixed",
                 backgroundSize: "contain",
                 backgroundPosition: "center",
-                backgroundPositionX: "25%",
+                backgroundPositionX: "-50%",
               }}
             ></div>
             <div
@@ -67,7 +67,7 @@ function Bio() {
                 backgroundAttachment: "fixed",
                 backgroundSize: "contain",
                 backgroundPosition: "center",
-                backgroundPositionX: "25%",
+                backgroundPositionX: "-50%",
               }}
             ></div>
           </div><div className="flex flex-col">
@@ -78,7 +78,7 @@ function Bio() {
                 backgroundAttachment: "fixed",
                 backgroundSize: "contain",
                 backgroundPosition: "center",
-                backgroundPositionX: "25%",
+                backgroundPositionX: "-50%",
               }}
             ></div>
             <div
@@ -88,7 +88,7 @@ function Bio() {
                 backgroundAttachment: "fixed",
                 backgroundSize: "contain",
                 backgroundPosition: "center",
-                backgroundPositionX: "25%",
+                backgroundPositionX: "-50%",
               }}
             ></div>
             <div
@@ -98,7 +98,7 @@ function Bio() {
                 backgroundAttachment: "fixed",
                 backgroundSize: "contain",
                 backgroundPosition: "center",
-                backgroundPositionX: "25%",
+                backgroundPositionX: "-50%",
               }}
             ></div>
           </div>
