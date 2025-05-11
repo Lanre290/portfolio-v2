@@ -11,7 +11,7 @@ function Footer(){
             </div>
 
             <h3 className="primary-color text-3xl mb-10">
-                &copy; 2024
+                &copy; 2025
             </h3>
             </div>
         </div>
