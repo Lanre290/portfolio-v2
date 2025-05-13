@@ -1,21 +1,31 @@
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 interface prog{
     text:string;
-    progress:number;
+    image:string;
+    index:number;
 }
 
-function Prog(data:prog){
+function Skill(data:prog){
+    const { ref, inView } = useInView({ triggerOnce: false, threshold: 0.2 });
+
     return(
-        <div className="flex flex-col gap-y-1 py-4 hover:bg-gray-200 hover:bg-opacity-50 cursor-pointer">
-            <div className="flex flex-row justify-between">
-                <h3 className="text-gray-50">{data.text}</h3>
-                <h3 className="text-gray-50">{data.progress}%</h3>
-            </div>
-            <div className="bg-primary-color-light h-1 rounded-md mx-auto w-full">
-                <div className="h-full w-3/4 rounded-md bg-primary-color" style={{width: `${data.progress}%`}}></div>
+        <motion.div
+      ref={ref}
+      initial={{ scale: 0.6, opacity: 0 }}
+      animate={inView ? { scale: 1, opacity: 1 } : {}}
+      transition={{ duration: 0.5, ease: "easeOut", delay: data.index * 0.05 }}
+      className="md:p-4 shadow-lg rounded-xl bg-transparent"
+    >
+        <div className="w-24 h-24 md:w-40 md:h-40 rounded-full bg-transparent cursor-pointer border-2 border-primary-color hover:bg-primary-color flex flex-col justify-center items-center hover:bg-opacity-10 hover:bg-gray-200 transition duration-300 ease-in-out">
+            <div className="flex flex-col md:flex-row gap-x-2 items-center">
+                <img src={data.image} alt={data.text} className="w-8 h-8"></img>
+                <h3 className="text-sm md:text-lg primary-color">{data.text}</h3>
             </div>
         </div>
+    </motion.div>
     )
 }
 
-export default Prog
+export default Skill
