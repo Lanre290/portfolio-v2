@@ -21,7 +21,7 @@ function Skills(){
       ];
       
     return(
-        <div className="flex flex-col w-11/12 md:w-4/6 mx:auto md:mx-0 my-5">
+        <div className="flex flex-col w-11/12 lg:w-4/6 mx:auto md:mx-0 my-5">
             <Title text="Skills"></Title>
             <div className="w-full p-5 gap-5 flex flex-wrap justify-center items-center">
                 {
